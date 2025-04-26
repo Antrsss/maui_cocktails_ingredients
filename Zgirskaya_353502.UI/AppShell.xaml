@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Zgirskaya_353502.UI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Zgirskaya_353502.UI"
+    xmlns:pages="clr-namespace:Zgirskaya_353502.UI.Pages"
+    Title="Zgirskaya_353502.UI">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+        Title="Cocktail list"
+        ContentTemplate="{DataTemplate pages:CocktailsPage}"
+        Route="Cocktails" />
+    <ShellContent
+        Title="Add/edit cocktail"
+        ContentTemplate="{DataTemplate pages:AddOrEditCocktailPage}"
+        Route="AddOrEditCocktail" />
+    <ShellContent
+        Title="Ingredient list"
+        ContentTemplate="{DataTemplate pages:IngredientsPage}"
+        Route="Ingredients" />
+    <ShellContent
+        Title="Add/edit ingredient"
+        ContentTemplate="{DataTemplate pages:AddOrEditIngredientPage}"
+        Route="AddOrEditIngredient" />
+
+</Shell>

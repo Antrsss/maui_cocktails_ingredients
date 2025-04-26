@@ -1,0 +1,15 @@
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\bin\Debug\net8.0\Zgirskaya_353502.Persistense.deps.json
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\bin\Debug\net8.0\Zgirskaya_353502.Persistense.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\bin\Debug\net8.0\Zgirskaya_353502.Persistense.pdb
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\bin\Debug\net8.0\Zgirskaya_353502.Domain.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\bin\Debug\net8.0\Zgirskaya_353502.Domain.pdb
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\Zgirskaya_353502.Persistense.csproj.AssemblyReference.cache
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\Zgirskaya_353502.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\Zgirskaya_353502.Persistense.AssemblyInfoInputs.cache
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\Zgirskaya_353502.Persistense.AssemblyInfo.cs
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\Zgirskaya_353502.Persistense.csproj.CoreCompileInputs.cache
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\Zgirskay.5E771C35.Up2Date
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\Zgirskaya_353502.Persistense.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\refint\Zgirskaya_353502.Persistense.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\Zgirskaya_353502.Persistense.pdb
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Persistense\obj\Debug\net8.0\ref\Zgirskaya_353502.Persistense.dll

@@ -1,0 +1,11 @@
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\bin\Debug\net8.0\Zgirskaya_353502.Domain.deps.json
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\bin\Debug\net8.0\Zgirskaya_353502.Domain.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\bin\Debug\net8.0\Zgirskaya_353502.Domain.pdb
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\obj\Debug\net8.0\Zgirskaya_353502.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\obj\Debug\net8.0\Zgirskaya_353502.Domain.AssemblyInfoInputs.cache
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\obj\Debug\net8.0\Zgirskaya_353502.Domain.AssemblyInfo.cs
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\obj\Debug\net8.0\Zgirskaya_353502.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\obj\Debug\net8.0\Zgirskaya_353502.Domain.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\obj\Debug\net8.0\refint\Zgirskaya_353502.Domain.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\obj\Debug\net8.0\Zgirskaya_353502.Domain.pdb
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Domain\obj\Debug\net8.0\ref\Zgirskaya_353502.Domain.dll

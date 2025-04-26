@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:Zgirskaya_353502.UI.ViewModels"
+             xmlns:entities="clr-namespace:Zgirskaya_353502.Domain.Entities;assembly=Zgirskaya_353502.Domain"
+             x:DataType="viewModels:CocktailsViewModel"
+             x:Class="Zgirskaya_353502.UI.Pages.CocktailsPage"
+             Title="CocktailsPage">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior
+            EventName="Appearing"
+            Command="{Binding OnAppearing}" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add cocktail" Command="{Binding AddCocktailCommand}" />
+        <ToolbarItem Text="Edit cocktail" Command="{Binding EditCocktailCommand}" IsEnabled="{Binding SelectedCocktail}" />
+        <ToolbarItem Text="Delete cocktail" Command="{Binding DeleteCocktailCommand}" IsEnabled="{Binding SelectedCocktail}" />
+        <ToolbarItem Text="Add ingredient" Command="{Binding AddIngredientCommand}" IsEnabled="{Binding SelectedCocktail}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Picker
+                x:Name="AllCocktails"
+                ItemsSource="{Binding ListOfCocktails}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding SelectedCocktail}">
+                <Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior
+                        EventName="SelectedIndexChanged"
+                        Command="{Binding UpdateSelectedCocktailCommand}"
+                        CommandParameter="{Binding Source={x:Reference AllCocktails}, Path=SelectedItem}" />
+                </Picker.Behaviors>
+            </Picker>
+
+            <Frame
+                Margin="0, 20, 0, 20"
+                IsVisible="{Binding SelectedCocktail}">
+                <VerticalStackLayout Padding="5" Spacing="10">
+                    <Label>
+                        <Label.Text>
+                            <Binding Path="SelectedCocktail.Name" StringFormat="Cocktail name: {0}" />
+                        </Label.Text>
+                    </Label>
+                </VerticalStackLayout>
+            </Frame>
+
+            <CollectionView
+                VerticalOptions="FillAndExpand"
+                ItemsSource="{Binding ListOfIngredients}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="entities:Ingredient">
+                        <Frame Padding="10" Margin="0,5" BorderColor="LightGray">
+                            <HorizontalStackLayout>
+                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding Quantity, StringFormat='Quantity: {0}'}" />
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

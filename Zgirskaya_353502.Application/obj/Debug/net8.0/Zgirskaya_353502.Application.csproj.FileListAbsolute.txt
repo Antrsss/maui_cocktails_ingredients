@@ -1,0 +1,15 @@
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\bin\Debug\net8.0\Zgirskaya_353502.Application.deps.json
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\bin\Debug\net8.0\Zgirskaya_353502.Application.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\bin\Debug\net8.0\Zgirskaya_353502.Application.pdb
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\bin\Debug\net8.0\Zgirskaya_353502.Domain.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\bin\Debug\net8.0\Zgirskaya_353502.Domain.pdb
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskaya_353502.Application.csproj.AssemblyReference.cache
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskaya_353502.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskaya_353502.Application.AssemblyInfoInputs.cache
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskaya_353502.Application.AssemblyInfo.cs
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskaya_353502.Application.csproj.CoreCompileInputs.cache
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskay.7C667EFD.Up2Date
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskaya_353502.Application.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\refint\Zgirskaya_353502.Application.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskaya_353502.Application.pdb
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\ref\Zgirskaya_353502.Application.dll
