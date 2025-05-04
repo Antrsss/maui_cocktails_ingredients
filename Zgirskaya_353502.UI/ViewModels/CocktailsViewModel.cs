@@ -20,6 +20,15 @@ namespace Zgirskaya_353502.UI.ViewModels
         public ObservableCollection<Cocktail> ListOfCocktails { get; } = new();
         public ObservableCollection<Ingredient> ListOfIngredients { get; } = new();
 
+        private async void OnNavigatedToPage(object sender, ShellNavigatedEventArgs e)
+        {
+            // Если вернулись со страницы редактирования ингредиента
+            if (e.Previous?.Location.ToString().Contains("IngredientDetailsPage") ?? false)
+            {
+                await LoadIngredientsForSelectedCocktail();
+            }
+        }
+
         [RelayCommand]
         public async Task OnAppearing()
         {
@@ -62,17 +71,20 @@ namespace Zgirskaya_353502.UI.ViewModels
         [RelayCommand]
         private async Task LoadIngredientsForSelectedCocktail()
         {
-            ListOfIngredients.Clear();
-
             if (SelectedCocktail != null)
             {
                 var ingredients = await _mediator.Send(
                     new GetIngredientsByCocktailIdQuery(SelectedCocktail.Id));
 
+                ListOfIngredients.Clear();
                 foreach (var ingredient in ingredients)
                 {
                     ListOfIngredients.Add(ingredient);
                 }
+            }
+            else
+            {
+                ListOfIngredients.Clear();
             }
         }
 
@@ -141,7 +153,8 @@ namespace Zgirskaya_353502.UI.ViewModels
 
             var parameters = new Dictionary<string, object>
             {
-                { "ingredient", ingredient }
+                { "ingredient", ingredient },
+                { "cocktailId", SelectedCocktail.Id }
             };
 
             await Shell.Current.GoToAsync(nameof(IngredientDetailsPage), parameters);
@@ -157,6 +170,14 @@ namespace Zgirskaya_353502.UI.ViewModels
             }
 
             await Shell.Current.GoToAsync($"{nameof(AddIngredientPage)}?cocktailId={SelectedCocktail.Id}");
+        }
+
+        public void ApplyQueryAttributes(IDictionary<string, object> query)
+        {
+            if (query.TryGetValue("refresh", out var refresh) && (bool)refresh)
+            {
+                _ = LoadIngredientsForSelectedCocktail();
+            }
         }
     }
 }

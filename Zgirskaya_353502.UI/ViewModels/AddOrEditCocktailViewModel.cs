@@ -1,42 +1,47 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Zgirskaya_353502.Application.CocktailUseCases.Commands;
 
-namespace Zgirskaya_353502.UI.ViewModels
+public partial class AddOrEditCocktailViewModel(IMediator mediator) : ObservableObject, IQueryAttributable
 {
-    public partial class AddOrEditCocktailViewModel(IMediator mediator) : ObservableObject, IQueryAttributable
+    private IAddOrEditCocktailRequest _request;
+    private int _cocktailId;
+
+    [ObservableProperty] private string _name;
+    [ObservableProperty] private double _preparationTime;
+
+    public void ApplyQueryAttributes(IDictionary<string, object> query)
     {
-        private IAddOrEditCocktailRequest _request;
+        _request = query["Request"] as IAddOrEditCocktailRequest;
+        if (_request == null) return;
 
-        [ObservableProperty] private string _name;
-        [ObservableProperty] private double _preparationTime;
+        _cocktailId = _request.Cocktail.Id;
+        _name = _request.Cocktail.Name;
+        _preparationTime = _request.Cocktail.PreparationTime;
+    }
 
-        public void ApplyQueryAttributes(IDictionary<string, object> query)
+    [RelayCommand]
+    async Task AddOrEditCocktail()
+    {
+        try
         {
-            _request = query["Request"] as IAddOrEditCocktailRequest;
-            if (_request == null) return;
-            _name = _request.Cocktail.Name;
-            _preparationTime = _request.Cocktail.PreparationTime;
-        }
+            // Создаем новый объект для обновления
+            var updatedCocktail = new Cocktail
+            {
+                Id = _cocktailId,
+                Name = _name,
+                PreparationTime = _preparationTime
+            };
 
-        [RelayCommand]
-        async Task AddOrEditCocktail()
-        {
-            _request.Cocktail.Name = _name;
-            _request.Cocktail.PreparationTime = _preparationTime;
+            // Обновляем данные в запросе
+            _request.Cocktail = updatedCocktail;
+
             await mediator.Send(_request);
-            await GoBack();
-        }
-
-        [RelayCommand]
-        async Task GoBack()
-        {
             await Shell.Current.GoToAsync("..");
+        }
+        catch (Exception ex)
+        {
+            await Shell.Current.DisplayAlert("Error", ex.Message, "OK");
         }
     }
 }

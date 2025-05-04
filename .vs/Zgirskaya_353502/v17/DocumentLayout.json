@@ -3,8 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\viewmodels\\cocktailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\viewmodels\\cocktailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\viewmodels\\ingredientdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\viewmodels\\ingredientdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\ingredientdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\ingredientdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\cocktailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\cocktailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\ingredientdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\ingredientdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6C29A8-C4A7-4BF8-84FF-91F9348DBAD1}|Zgirskaya_353502.Application\\Zgirskaya_353502.Application.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.application\\ingredientusecases\\commands\\editingredienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6C29A8-C4A7-4BF8-84FF-91F9348DBAD1}|Zgirskaya_353502.Application\\Zgirskaya_353502.Application.csproj|solutionrelative:zgirskaya_353502.application\\ingredientusecases\\commands\\editingredienthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6C29A8-C4A7-4BF8-84FF-91F9348DBAD1}|Zgirskaya_353502.Application\\Zgirskaya_353502.Application.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.application\\ingredientusecases\\commands\\editingredientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6C29A8-C4A7-4BF8-84FF-91F9348DBAD1}|Zgirskaya_353502.Application\\Zgirskaya_353502.Application.csproj|solutionrelative:zgirskaya_353502.application\\ingredientusecases\\commands\\editingredientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\addingredientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\addingredientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\addoreditcocktailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\addoreditcocktailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\cocktailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\cocktailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\addoreditcocktailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\addoreditcocktailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\addingredientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\addingredientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\viewmodels\\addingredientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\viewmodels\\addingredientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\viewmodels\\addoreditcocktailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\viewmodels\\addoreditcocktailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.persistense\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|solutionrelative:zgirskaya_353502.persistense\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.persistense\\repository\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|solutionrelative:zgirskaya_353502.persistense\\repository\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.persistense\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|solutionrelative:zgirskaya_353502.persistense\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6C29A8-C4A7-4BF8-84FF-91F9348DBAD1}|Zgirskaya_353502.Application\\Zgirskaya_353502.Application.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6C29A8-C4A7-4BF8-84FF-91F9348DBAD1}|Zgirskaya_353502.Application\\Zgirskaya_353502.Application.csproj|solutionrelative:zgirskaya_353502.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,38 +91,6 @@
       "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\registerpagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\addoreditcocktailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\addoreditcocktailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\viewmodels\\addoreditcocktailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\viewmodels\\addoreditcocktailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\cocktailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\cocktailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\cocktailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\cocktailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\viewmodels\\cocktailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\viewmodels\\cocktailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\viewmodels\\addingredientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\viewmodels\\addingredientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\addingredientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\addingredientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\addingredientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\addingredientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.persistense\\repository\\fakeunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|solutionrelative:zgirskaya_353502.persistense\\repository\\fakeunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,14 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.persistense\\repository\\fakecocktailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|solutionrelative:zgirskaya_353502.persistense\\repository\\fakecocktailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.persistense\\repository\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FAA72A5-9132-450E-BBBE-D332400635CB}|Zgirskaya_353502.Persistense\\Zgirskaya_353502.Persistense.csproj|solutionrelative:zgirskaya_353502.persistense\\repository\\efunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\viewmodels\\ingredientdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\viewmodels\\ingredientdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,16 +119,8 @@
       "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\addoreditcocktailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\addoreditcocktailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E6C29A8-C4A7-4BF8-84FF-91F9348DBAD1}|Zgirskaya_353502.Application\\Zgirskaya_353502.Application.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.application\\ingredientusecases\\commands\\addingredientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E6C29A8-C4A7-4BF8-84FF-91F9348DBAD1}|Zgirskaya_353502.Application\\Zgirskaya_353502.Application.csproj|solutionrelative:zgirskaya_353502.application\\ingredientusecases\\commands\\addingredientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\ingredientdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\ingredientdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6030D2F2-5D3C-41A4-9E5A-7A32ACB33124}|Zgirskaya_353502.Domain\\Zgirskaya_353502.Domain.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.domain\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6030D2F2-5D3C-41A4-9E5A-7A32ACB33124}|Zgirskaya_353502.Domain\\Zgirskaya_353502.Domain.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.domain\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6030D2F2-5D3C-41A4-9E5A-7A32ACB33124}|Zgirskaya_353502.Domain\\Zgirskaya_353502.Domain.csproj|solutionrelative:zgirskaya_353502.domain\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.ui\\pages\\ingredientdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6437FDDA-9000-4207-9AD6-D8DDB802380A}|Zgirskaya_353502.UI\\Zgirskaya_353502.UI.csproj|solutionrelative:zgirskaya_353502.ui\\pages\\ingredientdetailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E6C29A8-C4A7-4BF8-84FF-91F9348DBAD1}|Zgirskaya_353502.Application\\Zgirskaya_353502.Application.csproj|c:\\users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0438\u0441\u043F\\zgirskaya_353502\\zgirskaya_353502.application\\ingredientusecases\\queries\\getingredientsbycocktailidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -174,121 +190,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\appsettings.json",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\appsettings.json",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\appsettings.json",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-04T13:26:59.636Z",
+              "DocumentIndex": 2,
+              "Title": "IngredientDetailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml.cs",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:16:16.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\MauiProgram.cs",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\MauiProgram.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDEAAAAMAAAAAAAAAA==",
+              "Title": "IngredientDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\IngredientDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\ViewModels\\IngredientDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\IngredientDetailsViewModel.cs",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\ViewModels\\IngredientDetailsViewModel.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:48:07.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.Persistense\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\DependencyInjection.cs",
-              "RelativeToolTip": "Zgirskaya_353502.Persistense\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:54:49.971Z",
+              "WhenOpened": "2025-05-04T12:12:10.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RegisterPagesService.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\RegisterPagesService.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\RegisterPagesService.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\RegisterPagesService.cs",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\RegisterPagesService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:22:35.642Z",
+              "Title": "IngredientDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T11:14:47.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "EditIngredientHandler.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\EditIngredientHandler.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\EditIngredientHandler.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\EditIngredientHandler.cs",
+              "RelativeToolTip": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\EditIngredientHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:52:02.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CocktailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\CocktailsViewModel.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\ViewModels\\CocktailsViewModel.cs",
               "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\CocktailsViewModel.cs",
               "RelativeToolTip": "Zgirskaya_353502.UI\\ViewModels\\CocktailsViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwJ8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwFgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T16:42:10.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\DbInitializer.cs",
-              "RelativeToolTip": "Zgirskaya_353502.Application\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:24:42.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddIngredientViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\AddIngredientViewModel.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\ViewModels\\AddIngredientViewModel.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\AddIngredientViewModel.cs",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\ViewModels\\AddIngredientViewModel.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAqwDQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:09:55.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CocktailsPage.xaml",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml",
               "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml",
               "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml",
               "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwEkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-03T15:02:46.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "EditIngredientCommand.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\EditIngredientCommand.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\EditIngredientCommand.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\EditIngredientCommand.cs",
+              "RelativeToolTip": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\EditIngredientCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:52:00.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddIngredientPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml.cs",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T15:33:56.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddOrEditCocktailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml.cs",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:46:24.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CocktailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml.cs",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:27:07.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AddOrEditCocktailPage.xaml",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml",
               "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml",
               "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml",
               "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-02T11:45:58.745Z",
               "EditorCaption": ""
@@ -301,53 +343,140 @@
               "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml",
               "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml",
               "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-03T15:25:36.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
+              "Title": "AddIngredientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\AddIngredientViewModel.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\ViewModels\\AddIngredientViewModel.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\AddIngredientViewModel.cs",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\ViewModels\\AddIngredientViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:09:55.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AddOrEditCocktailViewModel.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\AddOrEditCocktailViewModel.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\ViewModels\\AddOrEditCocktailViewModel.cs",
               "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\AddOrEditCocktailViewModel.cs",
               "RelativeToolTip": "Zgirskaya_353502.UI\\ViewModels\\AddOrEditCocktailViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T13:20:02.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AddIngredientPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml.cs",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\AddIngredientPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "EfRepository.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\Repository\\EfRepository.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.Persistense\\Repository\\EfRepository.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\Repository\\EfRepository.cs",
+              "RelativeToolTip": "Zgirskaya_353502.Persistense\\Repository\\EfRepository.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAqwGYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T15:33:56.73Z",
+              "WhenOpened": "2025-05-04T13:33:35.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CocktailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml.cs",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\CocktailsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "EfUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\Repository\\EfUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.Persistense\\Repository\\EfUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\Repository\\EfUnitOfWork.cs",
+              "RelativeToolTip": "Zgirskaya_353502.Persistense\\Repository\\EfUnitOfWork.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:27:07.517Z",
+              "WhenOpened": "2025-05-04T12:54:33.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.Persistense\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\DependencyInjection.cs",
+              "RelativeToolTip": "Zgirskaya_353502.Persistense\\DependencyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:54:49.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Zgirskaya_353502.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T13:33:11.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\MauiProgram.cs",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\MauiProgram.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T11:48:07.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\appsettings.json",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\appsettings.json",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-04T13:26:59.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterPagesService.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\RegisterPagesService.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\RegisterPagesService.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\RegisterPagesService.cs",
+              "RelativeToolTip": "Zgirskaya_353502.UI\\RegisterPagesService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:22:35.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\DbInitializer.cs",
+              "RelativeToolTip": "Zgirskaya_353502.Application\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:24:42.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "FakeUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\Repository\\FakeUnitOfWork.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Persistense\\Repository\\FakeUnitOfWork.cs",
@@ -355,12 +484,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Persistense\\Repository\\FakeUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:57:05.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T12:57:05.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "FakeCocktailRepository.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\Repository\\FakeCocktailRepository.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Persistense\\Repository\\FakeCocktailRepository.cs",
@@ -368,25 +496,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Persistense\\Repository\\FakeCocktailRepository.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAqwE8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:46:35.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T16:46:35.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EfUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\Repository\\EfUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.Persistense\\Repository\\EfUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\Repository\\EfUnitOfWork.cs",
-              "RelativeToolTip": "Zgirskaya_353502.Persistense\\Repository\\EfUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:54:33.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "FakeIngedientRepository.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Persistense\\Repository\\FakeIngedientRepository.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Persistense\\Repository\\FakeIngedientRepository.cs",
@@ -394,25 +508,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Persistense\\Repository\\FakeIngedientRepository.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAqwEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:09:21.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T12:09:21.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IngredientDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\IngredientDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\ViewModels\\IngredientDetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\ViewModels\\IngredientDetailsViewModel.cs",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\ViewModels\\IngredientDetailsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:12:10.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\AppShell.xaml.cs",
@@ -420,12 +520,11 @@
               "RelativeToolTip": "Zgirskaya_353502.UI\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T15:27:30.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T15:27:30.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "Cocktail.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Domain\\Entities\\Cocktail.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Domain\\Entities\\Cocktail.cs",
@@ -433,12 +532,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Domain\\Entities\\Cocktail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T12:15:33.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T12:15:33.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\AppShell.xaml",
               "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\AppShell.xaml",
@@ -446,25 +544,11 @@
               "RelativeToolTip": "Zgirskaya_353502.UI\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-04T12:13:33.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T12:13:33.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AddOrEditCocktailPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml.cs",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\AddOrEditCocktailPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:46:24.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\App.xaml.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\App.xaml.cs",
@@ -472,12 +556,11 @@
               "RelativeToolTip": "Zgirskaya_353502.UI\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:33:20.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T11:33:20.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "AddIngredientCommand.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\AddIngredientCommand.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\AddIngredientCommand.cs",
@@ -485,12 +568,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\AddIngredientCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T10:04:34.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T10:04:34.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Domain\\Entities\\Entity.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Domain\\Entities\\Entity.cs",
@@ -498,12 +580,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Domain\\Entities\\Entity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T15:00:07.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T15:00:07.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "Ingredient.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Domain\\Entities\\Ingredient.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Domain\\Entities\\Ingredient.cs",
@@ -511,38 +592,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Domain\\Entities\\Ingredient.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAApwBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T07:13:19.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T07:13:19.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IngredientDetailsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-02T11:14:47.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IngredientDetailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml.cs",
-              "RelativeToolTip": "Zgirskaya_353502.UI\\Pages\\IngredientDetailsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:16:16.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "GetIngredientsByCocktailIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Queries\\GetIngredientsByCocktailIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\IngredientUseCases\\Queries\\GetIngredientsByCocktailIdQueryHandler.cs",
@@ -550,12 +604,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\IngredientUseCases\\Queries\\GetIngredientsByCocktailIdQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:17:50.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T11:17:50.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "GetIngredientsByCocktailIdQuery.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Queries\\GetIngredientsByCocktailIdQuery.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\IngredientUseCases\\Queries\\GetIngredientsByCocktailIdQuery.cs",
@@ -563,12 +616,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\IngredientUseCases\\Queries\\GetIngredientsByCocktailIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:17:38.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T11:17:38.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "EditCocktailHandler.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\EditCocktailHandler.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\EditCocktailHandler.cs",
@@ -576,12 +628,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\EditCocktailHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:12:11.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T11:12:11.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "IAddOrEditCocktailRequest.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\IAddOrEditCocktailRequest.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\IAddOrEditCocktailRequest.cs",
@@ -589,12 +640,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\IAddOrEditCocktailRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:12:17.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T11:12:17.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "EditCocktailCommand.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\EditCocktailCommand.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\EditCocktailCommand.cs",
@@ -602,12 +652,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\EditCocktailCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T10:05:06.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T10:05:06.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "DeleteCocktailHandler.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\DeleteCocktailHandler.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\DeleteCocktailHandler.cs",
@@ -615,12 +664,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\DeleteCocktailHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:11:58.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T11:11:58.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "DeleteCocktailCommand.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\DeleteCocktailCommand.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\DeleteCocktailCommand.cs",
@@ -628,12 +676,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\DeleteCocktailCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T10:05:11.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T10:05:11.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "AddCocktailHandler.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\AddCocktailHandler.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\AddCocktailHandler.cs",
@@ -641,12 +688,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\AddCocktailHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T06:50:03.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T06:50:03.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "AddCocktailCommand.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\AddCocktailCommand.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\AddCocktailCommand.cs",
@@ -654,12 +700,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\CocktailUseCases\\Commands\\AddCocktailCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T06:47:12.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T06:47:12.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.UI\\App.xaml",
               "RelativeDocumentMoniker": "Zgirskaya_353502.UI\\App.xaml",
@@ -667,12 +712,11 @@
               "RelativeToolTip": "Zgirskaya_353502.UI\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-02T10:51:54.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T10:51:54.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "IAddOrEditIngredientRequest.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\IAddOrEditIngredientRequest.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\IAddOrEditIngredientRequest.cs",
@@ -680,12 +724,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\IAddOrEditIngredientRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:20:22.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T11:20:22.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "DeleteIngredientHandler.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\DeleteIngredientHandler.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\DeleteIngredientHandler.cs",
@@ -693,12 +736,11 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\DeleteIngredientHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T11:20:03.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T11:20:03.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "AddIngredientHandler.cs",
               "DocumentMoniker": "C:\\Users\\zgdas\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\\\u0418\u0421\u041F\\Zgirskaya_353502\\Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\AddIngredientHandler.cs",
               "RelativeDocumentMoniker": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\AddIngredientHandler.cs",
@@ -706,8 +748,7 @@
               "RelativeToolTip": "Zgirskaya_353502.Application\\IngredientUseCases\\Commands\\AddIngredientHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T10:11:33.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T10:11:33.941Z"
             }
           ]
         }

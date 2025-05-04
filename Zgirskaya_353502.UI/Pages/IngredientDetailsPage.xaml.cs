@@ -4,27 +4,30 @@ using Zgirskaya_353502.Domain.Entities;
 namespace Zgirskaya_353502.UI.Pages
 {
     [QueryProperty(nameof(Ingredient), "ingredient")]
+    [QueryProperty(nameof(CocktailId), "cocktailId")]
     public partial class IngredientDetailsPage : ContentPage
     {
-        private Ingredient _ingredient;
-
-        public Ingredient Ingredient
-        {
-            get => _ingredient;
-            set
-            {
-                _ingredient = value;
-                if (BindingContext is IngredientDetailsViewModel viewModel && value != null)
-                {
-                    viewModel.SetIngredient(value);
-                }
-            }
-        }
-
+        private int _cocktailId;
         public IngredientDetailsPage(IngredientDetailsViewModel viewModel)
         {
             InitializeComponent();
             BindingContext = viewModel;
+        }
+
+        public Ingredient Ingredient { get; set; }
+        public int CocktailId
+        {
+            get => _cocktailId;
+            set => _cocktailId = value;
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            if (BindingContext is IngredientDetailsViewModel viewModel)
+            {
+                viewModel.SetIngredient(Ingredient);
+            }
         }
     }
 }

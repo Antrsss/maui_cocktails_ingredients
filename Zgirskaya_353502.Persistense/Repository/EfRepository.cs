@@ -88,7 +88,17 @@ namespace Zgirskaya_353502.Persistense.Repository
 
         public async Task UpdateAsync(T entity, CancellationToken cancellationToken = default)
         {
-            _context.Entry(entity).State = EntityState.Modified;
+            // Проверяем, не отслеживается ли уже сущность
+            var existingEntity = await _entities.FindAsync(entity.Id);
+            if (existingEntity != null)
+            {
+                _context.Entry(existingEntity).CurrentValues.SetValues(entity);
+            }
+            else
+            {
+                _context.Entry(entity).State = EntityState.Modified;
+            }
+
             await _context.SaveChangesAsync(cancellationToken);
         }
     }

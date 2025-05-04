@@ -1,8 +1,10 @@
+using Zgirskaya_353502.UI.ViewModels;
+
 namespace Zgirskaya_353502.UI.Pages;
 
 public partial class CocktailsPage : ContentPage
 {
-	public CocktailsPage(ViewModels.CocktailsViewModel viewModel)
+	public CocktailsPage(CocktailsViewModel viewModel)
 	{
 		InitializeComponent();
 		BindingContext = viewModel;
@@ -11,7 +13,7 @@ public partial class CocktailsPage : ContentPage
     protected override async void OnAppearing()
     {
         base.OnAppearing();
-        if (BindingContext is ViewModels.CocktailsViewModel viewModel)
+        if (BindingContext is CocktailsViewModel viewModel)
         {
             await viewModel.OnAppearing();
         }

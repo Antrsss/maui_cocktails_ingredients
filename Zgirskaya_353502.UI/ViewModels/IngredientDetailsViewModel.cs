@@ -10,16 +10,16 @@ namespace Zgirskaya_353502.UI.ViewModels
     {
         private readonly IMediator _mediator;
         [ObservableProperty]
-        private Ingredient _ingredient = null!;
+        private Ingredient _ingredient;
 
         [ObservableProperty]
-        private string _name = string.Empty;
+        private string _name;
 
         [ObservableProperty]
         private int _storageOnHand;
 
         [ObservableProperty]
-        private decimal _price; // Изменили decimal на double
+        private decimal _price;
 
         public IngredientDetailsViewModel(IMediator mediator)
         {
@@ -31,35 +31,35 @@ namespace Zgirskaya_353502.UI.ViewModels
             _ingredient = ingredient;
             Name = ingredient.IngredientData.Name;
             StorageOnHand = ingredient.StorageOnHand;
-            Price = ingredient.IngredientData.Price; // Явное преобразование decimal в double
+            Price = ingredient.IngredientData.Price;
+
+            OnPropertyChanged(nameof(StorageOnHand));
+            OnPropertyChanged(nameof(Price));
         }
 
         [RelayCommand]
         private async Task Save()
         {
-            // Создаем новый объект IngredientData с обновленными значениями
-            var updatedData = new IngredientData(
-                _ingredient.IngredientData.Name,
-                (decimal)Price) // Явное преобразование double в decimal
+            try
             {
-                // Если есть другие свойства, которые нужно сохранить
-                // OtherProperty = _ingredient.IngredientData.OtherProperty
-            };
+                // Обновляем ингредиент
+                _ingredient.IngredientData = new IngredientData(
+                    _ingredient.IngredientData.Name,
+                    Price);
+                _ingredient.StorageOnHand = StorageOnHand;
 
-            var updatedIngredient = new Ingredient(
-                updatedData,
-                StorageOnHand)
+                await _mediator.Send(new EditIngredientCommand
+                {
+                    Ingredient = _ingredient
+                });
+
+                // Возвращаемся назад с флагом обновления
+                await Shell.Current.GoToAsync("..?refresh=true");
+            }
+            catch (Exception ex)
             {
-                Id = _ingredient.Id,
-                CocktailId = _ingredient.CocktailId
-            };
-
-            await _mediator.Send(new EditIngredientCommand
-            {
-                Ingredient = updatedIngredient
-            });
-
-            await Shell.Current.GoToAsync("..");
+                await Shell.Current.DisplayAlert("Error", $"Failed to save: {ex.Message}", "OK");
+            }
         }
 
         [RelayCommand]

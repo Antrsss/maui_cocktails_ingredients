@@ -57,7 +57,7 @@
                         <Frame Padding="10" Margin="0,5" BorderColor="LightGray">
                             <VerticalStackLayout>
                                 <Label Text="{Binding IngredientData.Name}" FontAttributes="Bold"/>
-                                <Label Text="{Binding StorageOnHand, StringFormat='Quantity: {0}'}"/>
+                                <Label Text="{Binding StorageOnHand, StringFormat='Storage on hand: {0}'}"/>
                                 <Label Text="{Binding IngredientData.Price, StringFormat='Price: {0:C}'}"/>
                             </VerticalStackLayout>
                             <Frame.GestureRecognizers>

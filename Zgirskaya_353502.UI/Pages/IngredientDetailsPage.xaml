@@ -8,11 +8,11 @@
                FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
         
         <Label Text="Storage on hand:"/>
-        <Entry Text="{Binding StorageOnHand}" 
-               Keyboard="Numeric" Placeholder="Quantity"/>
+        <Entry Text="{Binding StorageOnHand, Mode=TwoWay}" 
+               Keyboard="Numeric" Placeholder="StorageOnHand"/>
 
         <Label Text="Price per one:"/>
-        <Entry Text="{Binding Price}" 
+        <Entry Text="{Binding Price, Mode=TwoWay}" 
                Keyboard="Numeric" Placeholder="Price"/>
 
         <Button Text="Save Changes" 

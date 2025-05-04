@@ -4,30 +4,26 @@
              xmlns:viewModels="clr-namespace:Zgirskaya_353502.UI.ViewModels"
              x:DataType="viewModels:AddIngredientViewModel"
              x:Class="Zgirskaya_353502.UI.Pages.AddIngredientPage"
-             Title="Добавить ингредиент">
+             Title="AddIngredient">
 
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="20" Spacing="15">
-                <!-- Поле для названия ингредиента -->
-                <Label Text="Название ингредиента:"/>
+                <Label Text="Ingredient name:"/>
                 <Entry Text="{Binding IngredientName}" 
-                       Placeholder="Введите название"/>
+                       Placeholder="Enter name"/>
 
-                <!-- Поле для количества -->
-                <Label Text="Количество:"/>
+                <Label Text="Storage on hand:"/>
                 <Entry Text="{Binding Quantity}" 
-                       Placeholder="Введите количество"
+                       Placeholder="Enter count"
                        Keyboard="Numeric"/>
 
-                <!-- Поле для цены -->
-                <Label Text="Цена:"/>
+                <Label Text="Price:"/>
                 <Entry Text="{Binding Price}" 
-                       Placeholder="Введите цену"
+                       Placeholder="Enter price"
                        Keyboard="Numeric"/>
 
-                <!-- Кнопка сохранить -->
-                <Button Text="Сохранить" 
+                <Button Text="Save" 
                         Command="{Binding SaveCommand}"
                         HorizontalOptions="Center"
                         WidthRequest="200"/>
