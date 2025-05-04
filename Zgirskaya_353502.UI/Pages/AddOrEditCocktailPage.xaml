@@ -5,7 +5,7 @@
              Title="AddOrEditCocktailPage">
     
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Save" Command="{Binding AddOrEditBrigadeCommand}" />
+        <ToolbarItem Text="Save" Command="{Binding AddOrEditCocktailCommand}" />
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>

@@ -1,62 +1,91 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Linq.Expressions;
+using System.Threading;
 using System.Threading.Tasks;
+using Zgirskaya_353502.Domain.Entities;
 
 namespace Zgirskaya_353502.Persistense.Repository
 {
-    public class FakeIngedientRepository : IRepository<Ingredient>
+    public class FakeIngredientRepository : IRepository<Ingredient>
     {
-        List<Ingredient> _list = new List<Ingredient>();
-        public FakeIngedientRepository()
+        private readonly List<Ingredient> _ingredients;
+
+        public FakeIngredientRepository()
         {
+            _ingredients = new List<Ingredient>();
             int k = 1;
+
             for (int i = 1; i <= 2; i++)
             {
                 for (int j = 0; j < 10; j++)
                 {
                     var ingredient = new Ingredient(
-                        new IngredientData($"Milk {k++}", 1.5), 3);
-                    ingredient.AddToCocktail(i);
-                    _list.Add(ingredient);
+                        new IngredientData($"Milk {k++}", 15), 3)
+                    {
+                        Id = k,
+                        CocktailId = i
+                    };
+                    _ingredients.Add(ingredient);
                 }
             }
         }
+
         public Task AddAsync(Ingredient entity, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            entity.Id = _ingredients.Max(i => i.Id) + 1;
+            _ingredients.Add(entity);
+            return Task.CompletedTask;
         }
 
         public Task DeleteAsync(Ingredient entity, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            _ingredients.RemoveAll(i => i.Id == entity.Id);
+            return Task.CompletedTask;
         }
 
-        public Task<Ingredient> FirstOrDefaultAsync(Expression<Func<Ingredient, bool>> filter, CancellationToken cancellationToken = default)
+        public Task<Ingredient> FirstOrDefaultAsync(
+            Expression<Func<Ingredient, bool>> filter,
+            CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(_ingredients.AsQueryable().FirstOrDefault(filter));
         }
 
-        public Task<Ingredient> GetByIdAsync(int id, CancellationToken cancellationToken = default, params Expression<Func<Ingredient, object>>[]? includesProperties)
+        public Task<Ingredient> GetByIdAsync(
+            int id,
+            CancellationToken cancellationToken = default,
+            params Expression<Func<Ingredient, object>>[]? includesProperties)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(_ingredients.FirstOrDefault(i => i.Id == id));
         }
 
         public Task<IReadOnlyList<Ingredient>> ListAllAsync(CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult((IReadOnlyList<Ingredient>)_ingredients.AsReadOnly());
         }
 
-        public async Task<IReadOnlyList<Ingredient>> ListAsync(Expression<Func<Ingredient, bool>> filter, CancellationToken cancellationToken = default, params Expression<Func<Ingredient, object>>[]? includesProperties)
+        public Task<IReadOnlyList<Ingredient>> ListAsync(
+            Expression<Func<Ingredient, bool>> filter,
+            CancellationToken cancellationToken = default,
+            params Expression<Func<Ingredient, object>>[]? includesProperties)
         {
-            var data = _list.AsQueryable();
-            return data.Where(filter).ToList();
+            var query = _ingredients.AsQueryable();
+            if (filter != null)
+                query = query.Where(filter);
+
+            return Task.FromResult((IReadOnlyList<Ingredient>)query.ToList().AsReadOnly());
         }
 
         public Task UpdateAsync(Ingredient entity, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            var existing = _ingredients.FirstOrDefault(i => i.Id == entity.Id);
+            if (existing != null)
+            {
+                _ingredients.Remove(existing);
+                _ingredients.Add(entity);
+            }
+            return Task.CompletedTask;
         }
     }
 }

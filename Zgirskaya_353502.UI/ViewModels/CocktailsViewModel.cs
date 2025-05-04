@@ -12,7 +12,10 @@ namespace Zgirskaya_353502.UI.ViewModels
 {
     public partial class CocktailsViewModel(IMediator mediator) : ObservableObject
     {
-        [ObservableProperty] private Cocktail? selectedCocktail;
+        private readonly IMediator _mediator = mediator;
+
+        [ObservableProperty]
+        private Cocktail? _selectedCocktail;
 
         public ObservableCollection<Cocktail> ListOfCocktails { get; } = new();
         public ObservableCollection<Ingredient> ListOfIngredients { get; } = new();
@@ -21,45 +24,56 @@ namespace Zgirskaya_353502.UI.ViewModels
         public async Task OnAppearing()
         {
             await LoadCocktails();
-            await UpdateIngredients();
+
+            if (ListOfCocktails.Any())
+            {
+                SelectedCocktail = ListOfCocktails.First();
+                await LoadIngredientsForSelectedCocktail();
+            }
         }
 
         [RelayCommand]
         private async Task LoadCocktails()
         {
             ListOfCocktails.Clear();
-            var cocktails = await mediator.Send(new GetAllCocktailsQuery());
+            var cocktails = await _mediator.Send(new GetAllCocktailsQuery());
             foreach (var cocktail in cocktails)
                 ListOfCocktails.Add(cocktail);
         }
 
         [RelayCommand]
-        private async Task UpdateIngredients()
+        private async Task UpdateSelectedCocktail(Cocktail selected)
         {
-            ListOfIngredients.Clear();
-            if (SelectedCocktail != null)
+            if (selected != null)
             {
-                var ingredients = await mediator.Send(new GetIngredientsByCocktailIdQuery(SelectedCocktail.Id));
-                foreach (var ingredient in ingredients)
-                    ListOfIngredients.Add(ingredient);
+                SelectedCocktail = selected;
+                await LoadIngredientsForSelectedCocktail();
+            }
+        }
+
+        partial void OnSelectedCocktailChanged(Cocktail? value)
+        {
+            if (value != null)
+            {
+                _ = LoadIngredientsForSelectedCocktail();
             }
         }
 
         [RelayCommand]
-        private async Task UpdateSelectedCocktail(Cocktail selected)
+        private async Task LoadIngredientsForSelectedCocktail()
         {
-            SelectedCocktail = selected;
-            await UpdateIngredients();
-        }
+            ListOfIngredients.Clear();
 
-        [RelayCommand]
-        private async Task GoToIngredient(Ingredient selectedIngredient)
-        {
-            IDictionary<string, object> parameters = new Dictionary<string, object>
+            if (SelectedCocktail != null)
             {
-                { "Ingredient", selectedIngredient }
-            };
-            await Shell.Current.GoToAsync(nameof(IngredientsPage), parameters);
+                var ingredients = await _mediator.Send(
+                    new GetIngredientsByCocktailIdQuery(SelectedCocktail.Id));
+
+                foreach (var ingredient in ingredients)
+                {
+                    ListOfIngredients.Add(ingredient);
+                }
+            }
         }
 
         private async Task GoToAddOrEditPage(string route, IRequest request)
@@ -72,36 +86,43 @@ namespace Zgirskaya_353502.UI.ViewModels
         }
 
         [RelayCommand]
-        private async Task AddIngredient()
-        {
-            if (SelectedCocktail == null) return;
-
-            await GoToAddOrEditPage(nameof(AddOrEditIngredientPage),
-                new AddIngredientCommand { Ingredient = new Ingredient { CocktailId = SelectedCocktail.Id } });
-
-            await UpdateIngredients();
-        }
-
-        [RelayCommand]
         private async Task AddCocktail()
         {
             await GoToAddOrEditPage(nameof(AddOrEditCocktailPage), new AddCocktailCommand
             {
                 Cocktail = new Cocktail()
             });
-
-            await LoadCocktails();
         }
 
         [RelayCommand]
         private async Task EditCocktail()
         {
-            if (SelectedCocktail == null) return;
+            try
+            {
+                if (SelectedCocktail == null)
+                {
+                    await Shell.Current.DisplayAlert("Error", "No cocktail selected", "OK");
+                    return;
+                }
 
-            await GoToAddOrEditPage(nameof(AddOrEditCocktailPage),
-                new EditCocktailCommand { Cocktail = SelectedCocktail });
+                Console.WriteLine($"Editing cocktail: {SelectedCocktail.Id}, {SelectedCocktail.Name}");
 
-            await LoadCocktails();
+                var command = new EditCocktailCommand
+                {
+                    Cocktail = new Cocktail
+                    {
+                        Id = SelectedCocktail.Id,
+                        Name = SelectedCocktail.Name,
+                        PreparationTime = SelectedCocktail.PreparationTime
+                    }
+                };
+
+                await GoToAddOrEditPage(nameof(AddOrEditCocktailPage), command);
+            }
+            catch (Exception ex)
+            {
+                await Shell.Current.DisplayAlert("Debug", ex.ToString(), "OK");
+            }
         }
 
         [RelayCommand]
@@ -111,6 +132,31 @@ namespace Zgirskaya_353502.UI.ViewModels
 
             await mediator.Send(new DeleteCocktailCommand(SelectedCocktail));
             await LoadCocktails();
+        }
+
+        [RelayCommand]
+        private async Task OpenIngredientDetails(Ingredient ingredient)
+        {
+            if (ingredient == null) return;
+
+            var parameters = new Dictionary<string, object>
+            {
+                { "ingredient", ingredient }
+            };
+
+            await Shell.Current.GoToAsync(nameof(IngredientDetailsPage), parameters);
+        }
+
+        [RelayCommand]
+        private async Task AddIngredient()
+        {
+            if (SelectedCocktail == null)
+            {
+                await Shell.Current.DisplayAlert("Ошибка", "Сначала выберите коктейль", "OK");
+                return;
+            }
+
+            await Shell.Current.GoToAsync($"{nameof(AddIngredientPage)}?cocktailId={SelectedCocktail.Id}");
         }
     }
 }

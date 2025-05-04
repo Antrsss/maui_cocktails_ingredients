@@ -8,24 +8,8 @@
     Title="Zgirskaya_353502.UI">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    <ShellContent
         Title="Cocktail list"
         ContentTemplate="{DataTemplate pages:CocktailsPage}"
         Route="Cocktails" />
-    <ShellContent
-        Title="Add/edit cocktail"
-        ContentTemplate="{DataTemplate pages:AddOrEditCocktailPage}"
-        Route="AddOrEditCocktail" />
-    <ShellContent
-        Title="Ingredient list"
-        ContentTemplate="{DataTemplate pages:IngredientsPage}"
-        Route="Ingredients" />
-    <ShellContent
-        Title="Add/edit ingredient"
-        ContentTemplate="{DataTemplate pages:AddOrEditIngredientPage}"
-        Route="AddOrEditIngredient" />
 
 </Shell>

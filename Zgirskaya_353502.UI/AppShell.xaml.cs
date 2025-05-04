@@ -9,9 +9,9 @@ namespace Zgirskaya_353502.UI
             InitializeComponent();
 
             Routing.RegisterRoute(nameof(AddOrEditCocktailPage), typeof(AddOrEditCocktailPage));
-            Routing.RegisterRoute(nameof(AddOrEditIngredientPage), typeof(AddOrEditIngredientPage));
+            Routing.RegisterRoute(nameof(AddIngredientPage), typeof(AddIngredientPage));
             Routing.RegisterRoute(nameof(CocktailsPage), typeof(CocktailsPage));
-            Routing.RegisterRoute(nameof(IngredientsPage), typeof(IngredientsPage));
+            Routing.RegisterRoute(nameof(IngredientDetailsPage), typeof(IngredientDetailsPage));
         }
     }
 }

@@ -9,12 +9,12 @@ namespace Zgirskaya_353502.Persistense.Repository
     public class FakeUnitOfWork : IUnitOfWork
     {
         private readonly FakeCocktailRepository _cocktailRepository;
-        private readonly FakeIngedientRepository _ingredientRepository;
+        private readonly FakeIngredientRepository _ingredientRepository;
 
         public FakeUnitOfWork()
         {
             _cocktailRepository = new FakeCocktailRepository();
-            _ingredientRepository = new FakeIngedientRepository();
+            _ingredientRepository = new FakeIngredientRepository();
         }
 
         public IRepository<Cocktail> CocktailRepository => _cocktailRepository;

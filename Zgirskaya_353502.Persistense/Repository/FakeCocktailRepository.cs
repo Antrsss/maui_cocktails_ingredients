@@ -1,57 +1,80 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Linq.Expressions;
+using System.Threading;
 using System.Threading.Tasks;
+using Zgirskaya_353502.Domain.Entities;
 
 namespace Zgirskaya_353502.Persistense.Repository
 {
     public class FakeCocktailRepository : IRepository<Cocktail>
     {
-        List<Cocktail> _cocktails;
+        private readonly List<Cocktail> _cocktails;
+
         public FakeCocktailRepository()
         {
-            _cocktails = new List<Cocktail>();
-            var cocktail = new Cocktail("Dream", 20);
-            cocktail.Id = 1;
-            _cocktails.Add(cocktail);
-            cocktail = new Cocktail("Star", 30);
-            cocktail.Id = 2;
-            _cocktails.Add(cocktail);
+            _cocktails = new List<Cocktail>
+            {
+                new Cocktail("Dream", 20) { Id = 1 },
+                new Cocktail("Star", 30) { Id = 2 }
+            };
         }
+
         public Task AddAsync(Cocktail entity, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            entity.Id = _cocktails.Max(c => c.Id) + 1;
+            _cocktails.Add(entity);
+            return Task.CompletedTask;
         }
 
         public Task DeleteAsync(Cocktail entity, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            _cocktails.RemoveAll(c => c.Id == entity.Id);
+            return Task.CompletedTask;
         }
 
-        public Task<Cocktail> FirstOrDefaultAsync(Expression<Func<Cocktail, bool>> filter, CancellationToken cancellationToken = default)
+        public Task<Cocktail> FirstOrDefaultAsync(
+            Expression<Func<Cocktail, bool>> filter,
+            CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(_cocktails.AsQueryable().FirstOrDefault(filter));
         }
 
-        public Task<Cocktail> GetByIdAsync(int id, CancellationToken cancellationToken = default, params Expression<Func<Cocktail, object>>[]? includesProperties)
+        public Task<Cocktail> GetByIdAsync(
+            int id,
+            CancellationToken cancellationToken = default,
+            params Expression<Func<Cocktail, object>>[]? includesProperties)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(_cocktails.FirstOrDefault(c => c.Id == id));
         }
 
-        public async Task<IReadOnlyList<Cocktail>> ListAllAsync(CancellationToken cancellationToken = default)
+        public Task<IReadOnlyList<Cocktail>> ListAllAsync(CancellationToken cancellationToken = default)
         {
-            return await Task.Run(() => _cocktails);
+            return Task.FromResult((IReadOnlyList<Cocktail>)_cocktails.AsReadOnly());
         }
 
-        public Task<IReadOnlyList<Cocktail>> ListAsync(Expression<Func<Cocktail, bool>> filter, CancellationToken cancellationToken = default, params Expression<Func<Cocktail, object>>[]? includesProperties)
+        public Task<IReadOnlyList<Cocktail>> ListAsync(
+            Expression<Func<Cocktail, bool>> filter,
+            CancellationToken cancellationToken = default,
+            params Expression<Func<Cocktail, object>>[]? includesProperties)
         {
-            throw new NotImplementedException();
+            var query = _cocktails.AsQueryable();
+            if (filter != null)
+                query = query.Where(filter);
+
+            return Task.FromResult((IReadOnlyList<Cocktail>)query.ToList().AsReadOnly());
         }
 
         public Task UpdateAsync(Cocktail entity, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            var existing = _cocktails.FirstOrDefault(c => c.Id == entity.Id);
+            if (existing != null)
+            {
+                _cocktails.Remove(existing);
+                _cocktails.Add(entity);
+            }
+            return Task.CompletedTask;
         }
     }
 }

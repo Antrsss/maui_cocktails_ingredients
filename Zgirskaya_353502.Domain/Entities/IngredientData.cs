@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Zgirskaya_353502.Domain.Entities
 {
-    public sealed record IngredientData(string Name, double Price);
+    public sealed record IngredientData(string Name, decimal Price);
 }

@@ -13,3 +13,4 @@ C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Appl
 C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\refint\Zgirskaya_353502.Application.dll
 C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskaya_353502.Application.pdb
 C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\ref\Zgirskaya_353502.Application.dll
+C:\Users\zgdas\2 курс\2 сем\ИСП\Zgirskaya_353502\Zgirskaya_353502.Application\obj\Debug\net8.0\Zgirskaya_353502.Application.sourcelink.json

@@ -10,7 +10,7 @@
 
     <ContentPage.Behaviors>
         <toolkit:EventToCommandBehavior
-            EventName="Appearing"
+            EventName="Loaded"
             Command="{Binding OnAppearing}" />
     </ContentPage.Behaviors>
 
@@ -27,13 +27,8 @@
                 x:Name="AllCocktails"
                 ItemsSource="{Binding ListOfCocktails}"
                 ItemDisplayBinding="{Binding Name}"
-                SelectedItem="{Binding SelectedCocktail}">
-                <Picker.Behaviors>
-                    <toolkit:EventToCommandBehavior
-                        EventName="SelectedIndexChanged"
-                        Command="{Binding UpdateSelectedCocktailCommand}"
-                        CommandParameter="{Binding Source={x:Reference AllCocktails}, Path=SelectedItem}" />
-                </Picker.Behaviors>
+                SelectedItem="{Binding SelectedCocktail, Mode=TwoWay}">
+                <!-- Убрали EventToCommandBehavior, так как используем привязку SelectedItem -->
             </Picker>
 
             <Frame
@@ -45,19 +40,31 @@
                             <Binding Path="SelectedCocktail.Name" StringFormat="Cocktail name: {0}" />
                         </Label.Text>
                     </Label>
+                    <Label>
+                        <Label.Text>
+                            <Binding Path="SelectedCocktail.PreparationTime" StringFormat="Preparation Time: {0}" />
+                        </Label.Text>
+                    </Label>
                 </VerticalStackLayout>
             </Frame>
 
             <CollectionView
                 VerticalOptions="FillAndExpand"
-                ItemsSource="{Binding ListOfIngredients}">
+                ItemsSource="{Binding ListOfIngredients}"
+                SelectionMode="Single">
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="entities:Ingredient">
                         <Frame Padding="10" Margin="0,5" BorderColor="LightGray">
-                            <HorizontalStackLayout>
-                                <Label Text="{Binding Name}" />
-                                <Label Text="{Binding Quantity, StringFormat='Quantity: {0}'}" />
-                            </HorizontalStackLayout>
+                            <VerticalStackLayout>
+                                <Label Text="{Binding IngredientData.Name}" FontAttributes="Bold"/>
+                                <Label Text="{Binding StorageOnHand, StringFormat='Quantity: {0}'}"/>
+                                <Label Text="{Binding IngredientData.Price, StringFormat='Price: {0:C}'}"/>
+                            </VerticalStackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:CocktailsViewModel}}, Path=OpenIngredientDetailsCommand}"
+                                    CommandParameter="{Binding .}"/>
+                            </Frame.GestureRecognizers>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
