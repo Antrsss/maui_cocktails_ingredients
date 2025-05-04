@@ -27,7 +27,7 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
             });
 
-        /*var a = Assembly.GetExecutingAssembly();
+        var a = Assembly.GetExecutingAssembly();
         using var stream = a.GetManifestResourceStream(settingsStream);
         builder.Configuration.AddJsonStream(stream);
 
@@ -37,14 +37,19 @@ public static class MauiProgram
         connStr = String.Format(connStr, dataDirectory);
         var options = new DbContextOptionsBuilder<AppDbContext>()
             .UseSqlite(connStr)
-            .Options;*/
+            .Options;
 
         builder.Services
             .AddApplication()
-            //.AddPersistence(options)
-            .AddPersistence()
+            .AddPersistence(options)
+            //.AddPersistence()
             .RegisterPages()
             .RegisterViewModels();
+
+        DbInitializer
+            .Initialize(builder.Services.BuildServiceProvider())
+            .Wait();
+
 
 
 #if DEBUG

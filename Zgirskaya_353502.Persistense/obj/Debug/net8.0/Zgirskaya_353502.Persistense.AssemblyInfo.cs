@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zgirskaya_353502.Persistense")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33a3e0fcdbbff7bd5ecdad338f68eefd8912bfaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ebb3be0a8095daa7429a1bd5246339442b4e311")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zgirskaya_353502.Persistense")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zgirskaya_353502.Persistense")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
